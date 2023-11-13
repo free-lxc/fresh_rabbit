@@ -1,0 +1,11 @@
+// 配置@/，可以联想到src下的所有文件
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    }
+}
